@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Suez+One&display=swap');
+
+.bg{
+    background-image: url('../img/photo-1623750281089-c9a5ef3a88df.avif') !important;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    
+}
+
+h1{
+    background-color:rgb(8, 15, 65);
+    cursor: pointer;
+    color: #51d497;
+    text-align: center;
+    height: 70px;
+    margin-bottom: 0 !important;
+    border: 0 !important;
+    height: auto;
+    transform: 1s;
+    font-family: 'Suez One', serif;
+}
+
+h1:hover{
+    background-color: #040428;
+    color:rgb(48, 170, 181);
+    transition-duration: 1s;
+}
+
+
+.btn-button{
+    display: inline-block;
+    position: relative;
+    color: white;
+    background-color: black;
+
+}
+
+.btn-button:hover{
+    
+    background-color: white;
+    color: black;
+}
+
+.navbar{
+    margin-bottom: 0 !important;
+    border: 0 !important;
+}
+
+.center{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.base{
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 30px;
+    border-radius: 15px;
+    font-family: arial;
+   
+}
+
+.base button{
+    text-decoration: none;
+    padding: 15px 35px;
+    display: block;
+    text-align: center;
+    box-shadow: #020405;
+}
+
+a{
+    text-decoration: none;
+}
+#red{
+    background-color: transpwarent;
+    color: rgb(98, 8, 3);
+    border-radius: 15px;
+    border: 2px solid rgb(255, 34, 0);
+    width: 300px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#red:hover{
+    background-color: red;
+    color: white;
+}
+
+#blue{
+    background-color: transparent;
+    color: rgb(13, 13, 49);
+    border-radius: 15px;
+    border: 2px solid blue;
+    width: 300px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#blue:hover{
+    background-color: blue;
+    color: white;
+}
+
+#green{
+    background-color: transparent;
+    color: rgb(9, 52, 9);
+    border-radius: 15px;
+    border: 2px solid green;
+    width: 300px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#green:hover{
+    background-color: green;
+    color: white;
+}
+#yellow{
+    background-color: transparent;
+    color: rgb(128, 124, 0);
+    border-radius: 15px;
+    border: 2px solid rgb(238, 241, 7);
+    width: 300px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#yellow:hover{
+    background-color: rgb(235, 252, 9);
+    color: white;
+}
+#orange{
+    background-color: transparent;
+    color: rgb(251, 154, 8);
+    border-radius: 15px;
+    border: 2px solid rgb(236, 120, 5);
+    width: 300px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#orange:hover{
+    background-color: rgb(243, 145, 7);
+    color: white;
+}
+
+a #container {
+    min-height:100%;
+    position:relative;
+ }
+ 
+ 
+ #container #header{
+    background-color:rgb(3, 8, 42);
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 0 !important;
+    border: 0 !important;
+    margin-bottom: 5px;
+ }
